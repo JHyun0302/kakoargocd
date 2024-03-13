@@ -64,3 +64,7 @@ spec:
     targetPort: 80
     # nodePort: 30001 -> 임의의 NodePort 가 선택됨
     # protocol: TCP   # 대문자로. TCP가 default
+
+---
+service 
+type : loadbalancer 
